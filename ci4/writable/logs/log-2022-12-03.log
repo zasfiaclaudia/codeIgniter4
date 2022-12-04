@@ -1,0 +1,42 @@
+CRITICAL - 2022-12-03 02:10:40 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH\Debug\Exceptions.php on line 177.
+ 1 SYSTEMPATH\Debug\Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError(8192, 'Optional parameter $id declared before required parameter $isi is implicitly treated as a required parameter', 'APPPATH\\Controllers\\Admin\\Pelanggan.php', 31)
+ 2 SYSTEMPATH\Router\AutoRouter.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Optional parameter $id declared before required parameter $isi is implicitly treated as a required parameter', 'APPPATH\\Controllers\\Admin\\Pelanggan.php', 31)
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('SYSTEMPATH\\Debug\\Exceptions.php')
+ 4 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('admin/pelanggan')
+ 5 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('admin/pelanggan')
+ 6 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('admin/pelanggan')
+ 7 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 02:36:44 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, Array given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('Array')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('Array')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('Array')
+ 4 APPPATH\Controllers\Admin\Order.php(16): CodeIgniter\Database\BaseResult->getResult('Array')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 02:39:34 --> Attempt to read property "idorder" on array
+in APPPATH\Controllers\Admin\Order.php on line 18.
+ 1 APPPATH\Controllers\Admin\Order.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idorder" on array', 'APPPATH\\Controllers\\Admin\\Order.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 02:42:54 --> Attempt to read property "idorder" on array
+in APPPATH\Controllers\Admin\Order.php on line 18.
+ 1 APPPATH\Controllers\Admin\Order.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idorder" on array', 'APPPATH\\Controllers\\Admin\\Order.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-03 02:52:13 --> Undefined array key 0
+in APPPATH\Controllers\Admin\Order.php on line 18.
+ 1 APPPATH\Controllers\Admin\Order.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Admin\\Order.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Order->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Order))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

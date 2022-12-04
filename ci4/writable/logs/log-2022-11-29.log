@@ -1,0 +1,110 @@
+CRITICAL - 2022-11-29 05:10:53 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-29 08:48:39 --> Array to string conversion
+in APPPATH\Views\kategori\select.php on line 8.
+ 1 APPPATH\Views\kategori\select.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\kategori\\select.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/select', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(33): view('kategori/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->select()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:04:45 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4', false)
+ 3 APPPATH\Controllers\Admin\Kategori.php(65): CodeIgniter\BaseModel->delete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->delete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4', '42')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:05:24 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4', false)
+ 3 APPPATH\Controllers\Admin\Kategori.php(65): CodeIgniter\BaseModel->delete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->delete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4', '42')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:06:48 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2367.
+ 1 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4', false)
+ 3 APPPATH\Controllers\Admin\Kategori.php(65): CodeIgniter\BaseModel->delete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->delete('E:\\xampp\\htdocs\\CodeIgniter4\\restoran-ci4', '42')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:30:56 --> Invalid file: template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/header', [], true)
+ 3 APPPATH\Controllers\Admin\Kategori.php(50): view('template/header')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:31:25 --> Invalid file: template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/header', [], true)
+ 3 APPPATH\Controllers\Admin\Kategori.php(50): view('template/header')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:35:23 --> Invalid file: template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/header', [], true)
+ 3 APPPATH\Controllers\Admin\Kategori.php(50): view('template/header')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:37:59 --> Invalid file: template/header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/header', [], true)
+ 3 APPPATH\Controllers\Admin\Kategori.php(50): view('template/header')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 19:42:03 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Admin\Kategori.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin\\Kategori.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\kategori')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\kategori')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\kategori', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 20:20:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\update.php on line 10.
+ 1 APPPATH\Views\kategori\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kategori\\update.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(61): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-29 20:23:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\update.php on line 10.
+ 1 APPPATH\Views\kategori\update.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\kategori\\update.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kategori\\update.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('kategori/update', [], true)
+ 5 APPPATH\Controllers\Admin\Kategori.php(59): view('kategori/update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Kategori->find('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

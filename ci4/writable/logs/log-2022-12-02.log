@@ -1,0 +1,21 @@
+CRITICAL - 2022-12-02 20:24:47 --> Undefined variable $kategori
+in APPPATH\Views\menu\select.php on line 41.
+ 1 APPPATH\Views\menu\select.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'APPPATH\\Views\\menu\\select.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu\\select.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('menu/select', [], true)
+ 5 APPPATH\Controllers\Admin\Menu.php(22): view('menu/select', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-02 21:16:06 --> Call to a member function links() on null
+in APPPATH\Views\menu\cari.php on line 63.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('menu/cari', [], true)
+ 4 APPPATH\Controllers\Admin\Menu.php(39): view('menu/cari', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin\Menu->read()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
